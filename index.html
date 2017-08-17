@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kari Twitch</title>
+
+<!-- Normalize.css, a cross-browser reset file
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">	
+
+<!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:300,400" rel="stylesheet">
+
+<!-- Stylesheets
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->   	
+	<link rel='stylesheet' href='main.css'>
+	<link rel='stylesheet' href='grid.css'>
+	
+</head>
+<body>
+
+  <!-- Search Bar
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+	<div class='container'>
+	<header class='header'>
+	<div class='js-search'>
+		<div><span class='website' onClick ="window.location.href ='index.html'"> TWITCH.V2 </span></div>
+	<form class='js-form'>
+		<div><input type='searchBar' class='js-input' placeholder='What game does your heart desire...' required></div>
+		<div><button type='submitButton' class='js-button'>Stream...</button></div>
+	</form>
+	</div>
+	</header>	
+	</div>
+		
+
+  <!-- Results
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+	<form class="row">
+	<div class='js-results-top'></div>
+	<div class='js-results-random'></div>
+	<div class='js-single-vid'></div>
+	</form>
+
+<!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– --> 	
+<script type = 'text/javascript' src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src='app.js'></script>
+</body>
+</hmtl>
