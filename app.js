@@ -69,7 +69,7 @@ function renderResults(data){
 	var topResults = '';	
 	var randomResult = '';
 	if (data.streams.length > 0) {
-		topResults += '<div><span class="topThree"> Top Three </span></div>';
+		topResults += '<div><span class="topThree"> TOP THREE </span></div>';
 		topResults += searchResults(data.streams[0].channel.name,' results', 'st0', 'col-1', 300); 
 		topResults += searchResults(data.streams[1].channel.name,' results', 'st1', 'col-1', 300);
 		topResults += searchResults(data.streams[2].channel.name,' results', 'st2', 'col-1', 300);	
@@ -82,7 +82,7 @@ function renderResults(data){
 		var random5 = Math.floor(Math.random()*(max - 7) + 7)
 		var random6 = Math.floor(Math.random()*(max - 7) + 7)
 		
-		randomResult += '<div><span class="randomOthers">Others</span></div>';
+		randomResult += '<div><span class="randomOthers">OTHERS</span></div>';
 		randomResult += searchResults(data.streams[random1].channel.name,' results', 'stR', 'col-2', 300);
 		randomResult += searchResults(data.streams[random2].channel.name,' results', 'stR1', 'col-2', 300);
 		randomResult += searchResults(data.streams[random3].channel.name,' results', 'stR2', 'col-2', 300);

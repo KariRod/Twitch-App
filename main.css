@@ -1,0 +1,126 @@
+* {
+box-sizing: border-box;
+}
+
+.hide-display {
+  display: none;
+}
+	
+body{
+background: #F8F9F9;
+height:100%;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	text-align: center;
+}
+
+	.header{
+		height:155px;
+		width:100%;
+		box-shadow: 7px 7px 7px #D7BDE2;
+		background-color: black;
+		position: absolute;
+		padding: 20px;
+	}
+	
+	.website {
+		font-weight: 400;
+		top: 20%;
+		margin-bottom: 8px;
+		font-size:1.5em;
+		font-family: 'Montserrat', sans-serif;
+		color: #80147F;
+	}
+
+	.website:hover{
+		color: #D7BDE2;
+	}
+
+	.js-input{
+	width:25%;
+	padding: 15px;
+	margin-top: .5%;
+	border-radius: 30px;
+	border: 2px solid #AF7AC5; 
+	font-size: 15px;
+	height:40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+
+	}
+
+	.js-button{
+	box-shadow: 0 0 0 0 rgba(175, 122, 197, 0.7);
+    margin: 10px 0;
+    border-radius: 30px;
+    padding: 9px;
+    background-color: #80147F;
+    color: black;
+    border: 2px solid #80147F; 
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1); }
+    button.start-button:hover {
+      animation: none;
+}
+
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 25px transparent; } }
+
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 25px transparent; } }
+
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 25px transparent; } }
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 25px transparent; } }
+
+.topThree,.randomOthers {
+	position:relative;
+    top: 20px;
+    bottom: 20px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	color: #80147F;
+}
+
+.randomOthers:hover {
+	color: #D7BDE2;
+}
+
+.topThree:hover {
+	color: #D7BDE2;
+}
+
+.js-results-top{
+	padding-bottom:30px;
+}
+	
+.js-results-random{
+	padding-bottom:30px;
+}
+
+.streamername {
+	padding: 20px;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+	

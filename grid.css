@@ -10,6 +10,44 @@
   margin: 0 auto;
 }
 
+.js-results-top {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  position:relative;
+  top: 220px;
+
+}
+
+span.topThree,.randomOthers {
+  position:relative;
+  top: 10px;
+  bottom: 30px;
+  left: 10px;
+  font-size:1.5em;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #80147F;
+}
+
+.randomOthers:hover {
+  color: #D7BDE2;
+}
+
+.topThree:hover {
+  color: #D7BDE2;
+}
+
+.js-results-random{
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  position:relative;
+  top: 220px;
+}
+
 /* Clearfix */
 .row::before,
 .row::after {
